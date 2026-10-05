@@ -2,27 +2,23 @@
 
 ## Features
 
-- **Dual-panel workspace.** An exam paper and its solution (or your notes) open side by side.
-
-  ![Dual-panel workspace](docs/screenshots/workspace.png)
-
+- **Dual-panel workspace.** Open an exam paper and its solution (or your notes) side by side, with page navigation, zoom and swap.
 - **AI tutor.** Ask about the page you are reading. The request type (hint, solve, explain, extract, visualise) is detected, and the prompt is built from the exam page, the official solution and course materials.
 
   ![AI tutor answering an exam question with worked steps and a data table](docs/screenshots/ai-tutor.png)
 
 - **Structured, visual AI answers.** The model returns JSON that the backend validates; the frontend renders it with real libraries: **Plotly** (charts, boxplots, histograms, regression, probability trees), **KaTeX** (formulas), **Mermaid** (diagrams) and styled tables. Answers are cached.
-- **Personal course library.** Add official courses to *My Courses*, upload your own materials and notes, and keep a trash for deleted items.
+- **Hints before answers.** A hint mode gives only the first step, and solutions can be compared with the official marking scheme.
+- **Personal course library.** Add official courses to *My Courses*, upload your own materials, notes and videos, and keep a trash for deleted items.
 - **Sharing.** Create a link so classmates can open a read-only copy of your workspace.
 - **Accounts.** Register with a SETU email, sign in and reset your password (Spring Security, database-backed sessions).
 
-## The learning approach
+## Planned
 
-- **Simple first.** Start with the easier material and build up.
-- **Focus on what is asked most.** Prioritise the question types that appear most often in previous years' exams.
-- **Explain in layers.** A short answer first; details only when you want them.
-- **Think before you see the answer.** Hints come before full solutions, and your working can be compared with the official solution.
-- **Show, don't just tell.** AI answers are drawn as charts, formulas, tables and step-by-step working instead of long text.
-- **Learn from videos too.** Linking relevant YouTube tutorials is planned.
+- Start with simpler material first and build up.
+- Layered explanations: a short answer first, details on request.
+- Rank questions by how often they appear in previous years' exams.
+- Link YouTube tutorials to specific topics.
 
 ## Tech stack
 
@@ -55,8 +51,4 @@ cd backend && ./gradlew test
 cd frontend && npm run build
 ```
 
-## Status and next steps
-
-The platform is in active development. Next: linking YouTube tutorials to topics and ranking questions by how often they appear in past exams.
-
-*Exam papers shown in screenshots belong to their authors and are used only to demonstrate the interface; personal names are blurred.*
+*Course documents in the screenshot are blurred; they belong to their authors.*
