@@ -24,6 +24,9 @@ The code matters less than the approach behind it:
   ![Dual-panel workspace](docs/screenshots/workspace.png)
 
 - **AI tutor.** Ask about the page you are reading. The request type (hint, solve, explain, extract, visualise) is detected, and the prompt is built from the exam page, the official solution and course materials.
+
+  ![AI tutor answering an exam question with worked steps and a data table](docs/screenshots/ai-tutor.png)
+
 - **Structured, visual AI answers.** The model returns JSON that the backend validates; the frontend renders it with real libraries: **Plotly** (charts, boxplots, histograms, regression, probability trees), **KaTeX** (formulas), **Mermaid** (diagrams) and styled tables. Answers are cached.
 - **Personal course library.** Add official courses to *My Courses*, upload your own materials and notes, and keep a trash for deleted items.
 - **Sharing.** Create a link so classmates can open a read-only copy of your workspace.
