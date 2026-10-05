@@ -51,4 +51,4 @@ cd backend && ./gradlew test
 cd frontend && npm run build
 ```
 
-*Course documents in the screenshot are blurred; they belong to their authors.*
+*Logos and personal names in the screenshot are blurred; course documents belong to their authors.*
