@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+
+app:
+  auth:
+    # Local/dev has no email sender yet — return reset token in the API response.
+    expose-reset-token: true
+
+logging:
+  level:
+    org.springframework.web: INFO
+    ie.setu.study: DEBUG
