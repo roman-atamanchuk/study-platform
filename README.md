@@ -5,7 +5,7 @@
 - **Dual-panel workspace.** Open an exam paper and its solution (or your notes) side by side, with page navigation, zoom and swap.
 - **AI tutor.** Ask about the page you are reading. The request type (hint, solve, explain, extract, visualise) is detected, and the prompt is built from the exam page, the official solution and course materials.
 
-  ![AI tutor answering an exam question with worked steps and a data table](docs/screenshots/ai-tutor.png)
+  ![AI tutor drawing a probability tree and contingency table for an exam question](docs/screenshots/ai-tutor.png)
 
 - **Structured, visual AI answers.** The model returns JSON that the backend validates; the frontend renders it with real libraries: **Plotly** (charts, boxplots, histograms, regression, probability trees), **KaTeX** (formulas), **Mermaid** (diagrams) and styled tables. Answers are cached.
 - **Hints before answers.** A hint mode gives only the first step, and solutions can be compared with the official marking scheme.
